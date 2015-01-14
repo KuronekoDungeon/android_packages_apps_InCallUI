@@ -327,7 +327,16 @@ public class InCallActivity extends Activity {
      */
     @Override
     public void finish() {
-        Log.i(this, "finish().  Dialog showing: " + (mDialog != null));
+        Log.d(this, "Skip finish().  Dialog showing: " + (mDialog != null));
+
+        // skip finish if we are still showing a dialog.
+        if (!hasPendingErrorDialog() && !mAnswerFragment.hasPendingDialogs()) {
+            moveTaskToBack(true);
+        }
+    }
+
+    public void finishActivity() {
+        Log.d(this, "finishActivity.  Dialog showing: " + (mDialog != null));
 
         // skip finish if we are still showing a dialog.
         if (!hasPendingErrorDialog() && !mAnswerFragment.hasPendingDialogs()) {
