@@ -144,10 +144,10 @@ public class SelectPhoneAccountDialogFragment extends DialogFragment {
     }
 
     @Override
-    public void onPause() {
+    public void onStop() {
         if (!mIsSelected) {
             InCallPresenter.getInstance().cancelAccountSelection();
         }
-        super.onPause();
+        super.onStop();
     }
 }
