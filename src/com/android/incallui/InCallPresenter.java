@@ -156,7 +156,7 @@ public class InCallPresenter implements CallList.Listener, InCallPhoneListener {
 
     /**
      * When configuration changes Android kills the current activity and starts a new one.
-     * The flag is used to check if full clean up is necessary (activity is stopped and new 
+     * The flag is used to check if full clean up is necessary (activity is stopped and new
      * activity won't be started), or if a new activity will be started right after the current one
      * is destroyed, and therefore no need in release all resources.
      */
@@ -317,6 +317,9 @@ public class InCallPresenter implements CallList.Listener, InCallPhoneListener {
             Log.i(this, "UI Destroyed)");
             updateListeners = true;
             mInCallActivity = null;
+
+            // Cancel any pending dialogs
+            cancelAccountSelection();
 
             // We attempt cleanup for the destroy case but only after we recalculate the state
             // to see if we need to come back up or stay shut down. This is why we do the cleanup
