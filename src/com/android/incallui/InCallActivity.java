@@ -244,7 +244,14 @@ public class InCallActivity extends Activity {
         super.onResume();
 
         mIsForegroundActivity = true;
-        InCallPresenter.getInstance().onUiShowing(true);
+
+        // This is misleading. InCallActivity is actually in the foreground,
+        // however the presenter is currently tearing down and considers
+        // that the InCallActivity is not started. So to subvert an NPE,
+        // check for both conditions since we might be out of sync.
+        if (InCallPresenter.getInstance().isShowingInCallUi()) {
+            InCallPresenter.getInstance().onUiShowing(true);
+        }
 
         if (mShowDialpadRequested) {
             mCallButtonFragment.displayDialpad(true /* show */,
