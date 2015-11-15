@@ -50,6 +50,8 @@ import java.lang.ref.WeakReference;
 
 import com.google.common.base.Preconditions;
 
+import android.suda.utils.SudaUtils;
+
 /**
  * Presenter for the Call Card Fragment.
  * <p>
@@ -77,6 +79,9 @@ public class CallCardPresenter extends Presenter<CallCardPresenter.CallCardUi>
     private Context mContext;
     private boolean mSpinnerShowing = false;
     private boolean mHasShownToast = false;
+
+    private static boolean isSupportLanguage;
+
 
     public static class ContactLookupCallback implements ContactInfoCacheCallback {
         private final WeakReference<CallCardPresenter> mCallCardPresenter;
@@ -154,6 +159,8 @@ public class CallCardPresenter extends Presenter<CallCardPresenter.CallCardUi>
         InCallPresenter.getInstance().addIncomingCallListener(this);
         InCallPresenter.getInstance().addDetailsListener(this);
         InCallPresenter.getInstance().addInCallEventListener(this);
+
+        isSupportLanguage = SudaUtils.isSupportLanguage(true);
     }
 
     @Override
@@ -667,7 +674,9 @@ public class CallCardPresenter extends Presenter<CallCardPresenter.CallCardUi>
                     number,
                     name,
                     nameIsNumber,
-                    isChildNumberShown || isCallSubjectShown ? null : mPrimaryContactInfo.label,
+                    isChildNumberShown || isCallSubjectShown ? null : isSupportLanguage ? TextUtils.isEmpty(mPrimaryContactInfo.label) ? mPrimaryContactInfo.location :
+                        TextUtils.isEmpty(mPrimaryContactInfo.location) ? mPrimaryContactInfo.label : mPrimaryContactInfo.label + " "
+                            + mPrimaryContactInfo.location : mPrimaryContactInfo.label,
                     mPrimaryContactInfo.photo,
                     mPrimaryContactInfo.isSipCall);
         } else {
@@ -825,7 +834,11 @@ public class CallCardPresenter extends Presenter<CallCardPresenter.CallCardUi>
         // If the name is empty, we use the number for the name...so dont show a second
         // number in the number field
         if (TextUtils.isEmpty(contactInfo.name)) {
-            return contactInfo.location;
+            if (!isSupportLanguage) {
+                return contactInfo.location;
+            } else {
+                return "";
+            }
         }
         return contactInfo.number;
     }

@@ -43,6 +43,8 @@ import com.google.common.base.Preconditions;
 
 import java.util.Objects;
 
+import android.suda.utils.SudaUtils;
+
 /**
  * This class adds Notifications to the status bar for the in-call experience.
  */
@@ -357,13 +359,25 @@ public class StatusBarNotifier implements InCallPresenter.InCallStateListener,
         if (call.isConferenceCall() && !call.hasProperty(Details.PROPERTY_GENERIC_CONFERENCE)) {
             return mContext.getResources().getString(R.string.card_title_conf_call);
         }
-        if (TextUtils.isEmpty(contactInfo.name)) {
-            return TextUtils.isEmpty(contactInfo.number) ? null
-                    : BidiFormatter.getInstance().unicodeWrap(
-                            contactInfo.number.toString(), TextDirectionHeuristics.LTR);
-        }
+        
+        if (SudaUtils.isSupportLanguage(true)) {
+            if (TextUtils.isEmpty(contactInfo.name)) {
+                return TextUtils.isEmpty(contactInfo.number) ? null
+                    : TextUtils.isEmpty(contactInfo.location) ? BidiFormatter.getInstance().unicodeWrap(
+                        contactInfo.number.toString(), TextDirectionHeuristics.LTR) : BidiFormatter.getInstance().unicodeWrap(
+                            contactInfo.number.toString() + " " + contactInfo.location, TextDirectionHeuristics.LTR);
+            }
+            return !TextUtils.isEmpty(contactInfo.location) ? contactInfo.name + " " + contactInfo.location : contactInfo.name;
+        } else {
+            if (TextUtils.isEmpty(contactInfo.name)) {
+                return TextUtils.isEmpty(contactInfo.number) ? null
+                        : BidiFormatter.getInstance().unicodeWrap(
+                                contactInfo.number.toString(), TextDirectionHeuristics.LTR);
+            }
 
-        return contactInfo.name;
+            return contactInfo.name;
+        }
+        
     }
 
     private void addPersonReference(Notification.Builder builder, ContactCacheEntry contactInfo,
@@ -668,3 +682,4 @@ public class StatusBarNotifier implements InCallPresenter.InCallStateListener,
         // no-op
     }
 }
+
