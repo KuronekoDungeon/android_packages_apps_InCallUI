@@ -55,6 +55,10 @@ import com.android.phone.common.animation.AnimUtils;
 
 import java.util.List;
 
+import com.suda.cloud.phone.PhoneUtil;
+import com.suda.cloud.phone.PhoneUtil.CallBack;
+import android.suda.utils.SudaUtils;
+
 /**
  * Fragment for call card.
  */
@@ -166,6 +170,8 @@ public class CallCardFragment extends BaseFragment<CallCardPresenter, CallCardPr
     private boolean mCallStateLabelResetPending = false;
     private Handler mHandler;
 
+    private static PhoneUtil mPu;
+
     @Override
     public CallCardPresenter.CallCardUi getUi() {
         return this;
@@ -198,6 +204,7 @@ public class CallCardFragment extends BaseFragment<CallCardPresenter, CallCardPr
         final CallList calls = CallList.getInstance();
         final Call call = calls.getFirstCall();
         getPresenter().init(getActivity(), call);
+        mPu = PhoneUtil.getPhoneUtil(getActivity());
     }
 
     @Override
@@ -499,6 +506,16 @@ public class CallCardFragment extends BaseFragment<CallCardPresenter, CallCardPr
 
         // Set the label (Mobile, Work, etc)
         setPrimaryLabel(label);
+
+        if (SudaUtils.isSupportLanguage(true) && !TextUtils.isEmpty(number)
+                   && TextUtils.isEmpty(name)) {
+            mPu.getOnlineNumberInfo(number, new CallBack() {
+                    public void execute(String response) {
+                         setPrimaryLabel(response);
+                     }
+                }
+            );
+        }
 
         showInternetCallLabel(isSipCall);
 
