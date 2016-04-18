@@ -42,7 +42,7 @@
   <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
   <string name="audio_mode_wired_headset">Проводная гарнитура</string>
   <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
-  <string name="audio_mode_bluetooth">Bluetooth</string>
+  <string name="audio_mode_bluetooth">Устройства Bluetooth</string>
   <!-- post dial -->
   <!-- In-call screen: body text of the dialog that appears when we encounter
          the "wait" character in a phone number to be dialed; this dialog asks the
@@ -98,7 +98,7 @@
   <!-- In-call screen: status label when there is a problem connecting a video call. -->
   <string name="card_title_video_call_error">Не удалось совершить видеовызов</string>
   <!-- In-call screen: status label when the remote party rejects a video call request. -->
-  <string name="card_title_video_call_rejected">Video request rejected</string>
+  <string name="card_title_video_call_rejected">Видео запрос отклонен</string>
   <!-- In-call screen: string shown to the user when their outgoing number is different than the
          number reported by TelephonyManager#getLine1Number() -->
   <string name="card_title_callback_number">Номер обратного вызова:\n<xliff:g id="DARK_NUMBER">%1$s</xliff:g></string>
@@ -390,14 +390,14 @@
   </plurals>
   <!-- Description of the profile photo shown when the device's camera is disabled udring a video
         call. [CHAR LIMIT=NONE] -->
-  <string name="profile_photo_description">Profile photo</string>
+  <string name="profile_photo_description">Изображение профиля</string>
   <!-- Description of the "camera off" icon displayed when the device's camera is disabled during
          a video call. [CHAR LIMIT=NONE] -->
-  <string name="camera_off_description">Camera off</string>
+  <string name="camera_off_description">Камера выключена</string>
   <!-- Used to inform the user that a call was received via a number other than the primary
         phone number associated with their device. [CHAR LIMIT=16] -->
-  <string name="child_number">via <xliff:g id="child_number" example="650-555-1212">%s</xliff:g></string>
+  <string name="child_number">через</string>
   <!-- Used to inform the user that the note associated with an outgoing call has been sent.
          [CHAR LIMIT=32] -->
-  <string name="note_sent">Note sent</string>
+  <string name="note_sent">Заметка доставлена</string>
 </resources>

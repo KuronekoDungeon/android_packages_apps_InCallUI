@@ -98,7 +98,7 @@
   <!-- In-call screen: status label when there is a problem connecting a video call. -->
   <string name="card_title_video_call_error">无法连接视频通话</string>
   <!-- In-call screen: status label when the remote party rejects a video call request. -->
-  <string name="card_title_video_call_rejected">Video request rejected</string>
+  <string name="card_title_video_call_rejected">视频请求被拒绝</string>
   <!-- In-call screen: string shown to the user when their outgoing number is different than the
          number reported by TelephonyManager#getLine1Number() -->
   <string name="card_title_callback_number">您的回拨号码\n<xliff:g id="DARK_NUMBER">%1$s</xliff:g></string>
@@ -384,14 +384,14 @@
   </plurals>
   <!-- Description of the profile photo shown when the device's camera is disabled udring a video
         call. [CHAR LIMIT=NONE] -->
-  <string name="profile_photo_description">Profile photo</string>
+  <string name="profile_photo_description">头像</string>
   <!-- Description of the "camera off" icon displayed when the device's camera is disabled during
          a video call. [CHAR LIMIT=NONE] -->
-  <string name="camera_off_description">Camera off</string>
+  <string name="camera_off_description">摄像头已关闭</string>
   <!-- Used to inform the user that a call was received via a number other than the primary
         phone number associated with their device. [CHAR LIMIT=16] -->
-  <string name="child_number">via <xliff:g id="child_number" example="650-555-1212">%s</xliff:g></string>
+  <string name="child_number">通过 <xliff:g id="child_number" example="650-555-1212">%s</xliff:g></string>
   <!-- Used to inform the user that the note associated with an outgoing call has been sent.
          [CHAR LIMIT=32] -->
-  <string name="note_sent">Note sent</string>
+  <string name="note_sent">备注已发送</string>
 </resources>
