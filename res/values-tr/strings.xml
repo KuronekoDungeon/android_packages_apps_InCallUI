@@ -98,7 +98,7 @@
   <!-- In-call screen: status label when there is a problem connecting a video call. -->
   <string name="card_title_video_call_error">Video görüşmesi bağlantısı yapılamıyor</string>
   <!-- In-call screen: status label when the remote party rejects a video call request. -->
-  <string name="card_title_video_call_rejected">Video request rejected</string>
+  <string name="card_title_video_call_rejected">Video isteği reddedildi</string>
   <!-- In-call screen: string shown to the user when their outgoing number is different than the
          number reported by TelephonyManager#getLine1Number() -->
   <string name="card_title_callback_number">Geri arama numaranız\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g></string>
