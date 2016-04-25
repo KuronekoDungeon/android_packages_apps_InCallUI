@@ -193,7 +193,7 @@
   <!-- In-call screen: call failure message displayed in an error dialog -->
   <string name="incall_error_call_failed">A hívás sikertelen.</string>
   <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
-  <string name="incall_status_dialed_mmi">MMI-sorozat indítása...</string>
+  <string name="incall_status_dialed_mmi">MMI-sorozat indítása\u2026</string>
   <!-- In-call screen: message displayed in an error dialog -->
   <string name="incall_error_supp_service_unknown">A szolgáltatás nem támogatott.</string>
   <!-- In-call screen: message displayed in an error dialog -->
@@ -213,7 +213,7 @@
   <!-- Dialog title for the "radio enable" UI for emergency calls -->
   <string name="emergency_enable_radio_dialog_title">Segélyhívás</string>
   <!-- Status message for the "radio enable" UI for emergency calls -->
-  <string name="emergency_enable_radio_dialog_message">Rádió bekapcsolása...</string>
+  <string name="emergency_enable_radio_dialog_message">Rádió bekapcsolása\u2026</string>
   <!-- Status message for the "radio enable" UI for emergency calls -->
   <string name="emergency_enable_radio_dialog_retry">Nincs szolgáltatás. Újrapróbálkozás folyamatban…</string>
   <!-- Dialer text on Emergency Dialer -->
@@ -298,7 +298,7 @@
   <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
   <string name="selectContact">névjegy kijelölése</string>
   <!-- "Respond via SMS" option that lets you compose a custom response. [CHAR LIMIT=30] -->
-  <string name="respond_via_sms_custom_message">Saját válasz írása...</string>
+  <string name="respond_via_sms_custom_message">Saját válasz írása\u2026</string>
   <!-- "Custom Message" Cancel alert dialog button -->
   <string name="custom_message_cancel">Mégse</string>
   <!-- "Custom Message" Send alert dialog button -->
