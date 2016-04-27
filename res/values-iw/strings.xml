@@ -298,7 +298,7 @@
   <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
   <string name="selectContact">בחר איש קשר</string>
   <!-- "Respond via SMS" option that lets you compose a custom response. [CHAR LIMIT=30] -->
-  <string name="respond_via_sms_custom_message">כתוב אחת משלך...</string>
+  <string name="respond_via_sms_custom_message">Write your own\u2026</string>
   <!-- "Custom Message" Cancel alert dialog button -->
   <string name="custom_message_cancel">בטל</string>
   <!-- "Custom Message" Send alert dialog button -->
