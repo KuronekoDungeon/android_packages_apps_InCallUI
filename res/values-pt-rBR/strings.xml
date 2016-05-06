@@ -22,23 +22,23 @@
   <!-- Official label for the in-call UI. DO NOT TRANSLATE. -->
   <!-- Call status -->
   <!-- In-call screen: status label for a call that's on hold -->
-  <string name="onHold">On hold</string>
+  <string name="onHold">Em espera</string>
   <!-- Incoming call screen, name of "unknown" caller -->
-  <string name="unknown">Unknown</string>
+  <string name="unknown">Desconhecido</string>
   <!-- Incoming call screen, string when number hidden -->
-  <string name="private_num">Private number</string>
+  <string name="private_num">Número privado</string>
   <!-- Incoming call screen, string when called from a pay phone -->
-  <string name="payphone">Payphone</string>
+  <string name="payphone">Telefone público</string>
   <!-- In-call screen: status label for a conference call -->
-  <string name="confCall">Conference call</string>
+  <string name="confCall">Chamada em conferência</string>
   <!-- In-call screen: call lost dialog text -->
-  <string name="call_lost">Call dropped</string>
+  <string name="call_lost">A chamada caiu</string>
   <!-- MMI dialog strings -->
   <!-- Dialog label when an MMI code starts running -->
   <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
-  <string name="audio_mode_speaker">Speaker</string>
+  <string name="audio_mode_speaker">Alto-falante</string>
   <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
-  <string name="audio_mode_earpiece">Handset earpiece</string>
+  <string name="audio_mode_earpiece">Fones de ouvido do aparelho</string>
   <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
   <string name="audio_mode_wired_headset">Wired headset</string>
   <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
@@ -47,23 +47,23 @@
   <!-- In-call screen: body text of the dialog that appears when we encounter
          the "wait" character in a phone number to be dialed; this dialog asks the
          user if it's OK to send the numbers following the "wait". -->
-  <string name="wait_prompt_str">Send the following tones?\n</string>
+  <string name="wait_prompt_str">Enviar os seguintes tons? \n</string>
   <!-- In-call screen: body text of the dialog that appears when we encounter
          the "PAUSE" character in a phone number to be dialed; this dialog gives
          informative message to the user to show the sending numbers following the "Pause". -->
-  <string name="pause_prompt_str">Sending tones\n</string>
+  <string name="pause_prompt_str">Enviando tons\n</string>
   <!-- In-call screen: button label on the "wait" prompt dialog -->
-  <string name="send_button">Send</string>
+  <string name="send_button">Enviar</string>
   <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
-  <string name="pause_prompt_yes">Yes</string>
+  <string name="pause_prompt_yes">Sim</string>
   <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
-  <string name="pause_prompt_no">No</string>
+  <string name="pause_prompt_no">Não</string>
   <!-- In-call screen: on the "wild" character dialog, this is the label
          for a text widget that lets the user enter the digits that should
          replace the "wild" character. -->
-  <string name="wild_prompt_str">Replace wild character with</string>
+  <string name="wild_prompt_str">Substituir o caracter coringa por</string>
   <!-- In-call screen: status label for a conference call -->
-  <string name="caller_manage_header">Conference call <xliff:g id="conf_call_time">%s</xliff:g></string>
+  <string name="caller_manage_header">Chamada em conferência <xliff:g id="conf_call_time">%s </xliff:g></string>
   <!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
   <!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
   <!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
