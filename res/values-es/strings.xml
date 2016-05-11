@@ -98,7 +98,7 @@
   <!-- In-call screen: status label when there is a problem connecting a video call. -->
   <string name="card_title_video_call_error">No se puede establecer la videollamada</string>
   <!-- In-call screen: status label when the remote party rejects a video call request. -->
-  <string name="card_title_video_call_rejected">Video request rejected</string>
+  <string name="card_title_video_call_rejected">Solicitud de videollamada rechazada</string>
   <!-- In-call screen: string shown to the user when their outgoing number is different than the
          number reported by TelephonyManager#getLine1Number() -->
   <string name="card_title_callback_number">Tu número de devolución de llamada\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g></string>
@@ -248,7 +248,7 @@
   <string name="onscreenManageConferenceText">Administrar llamada</string>
   <!-- Text for the onscreen "Audio" button that lets you switch
          between speaker / bluetooth / earpiece [CHAR LIMIT=10] -->
-  <string name="onscreenAudioText">Audio</string>
+  <string name="onscreenAudioText">Sonido</string>
   <!-- Text for the onscreen "Video call" button used to change a voice call
          to a video call. [CHAR LIMIT=10] -->
   <string name="onscreenVideoCallText">Videollamada</string>
@@ -298,7 +298,7 @@
   <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
   <string name="selectContact">seleccionar contacto</string>
   <!-- "Respond via SMS" option that lets you compose a custom response. [CHAR LIMIT=30] -->
-  <string name="respond_via_sms_custom_message">Write your own\u2026</string>
+  <string name="respond_via_sms_custom_message">Escribe tu propia respuesta</string>
   <!-- "Custom Message" Cancel alert dialog button -->
   <string name="custom_message_cancel">Cancelar</string>
   <!-- "Custom Message" Send alert dialog button -->
@@ -387,14 +387,14 @@
   </plurals>
   <!-- Description of the profile photo shown when the device's camera is disabled udring a video
         call. [CHAR LIMIT=NONE] -->
-  <string name="profile_photo_description">Profile photo</string>
+  <string name="profile_photo_description">Foto de perfil</string>
   <!-- Description of the "camera off" icon displayed when the device's camera is disabled during
          a video call. [CHAR LIMIT=NONE] -->
-  <string name="camera_off_description">Camera off</string>
+  <string name="camera_off_description">Cámara desactivada</string>
   <!-- Used to inform the user that a call was received via a number other than the primary
         phone number associated with their device. [CHAR LIMIT=16] -->
   <string name="child_number">via <xliff:g id="child_number" example="650-555-1212">%s</xliff:g></string>
   <!-- Used to inform the user that the note associated with an outgoing call has been sent.
          [CHAR LIMIT=32] -->
-  <string name="note_sent">Note sent</string>
+  <string name="note_sent">Nota enviada</string>
 </resources>

@@ -40,7 +40,7 @@
   <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
   <string name="audio_mode_earpiece">Fones de ouvido do aparelho</string>
   <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
-  <string name="audio_mode_wired_headset">Wired headset</string>
+  <string name="audio_mode_wired_headset">Fone de ouvido com fio</string>
   <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
   <string name="audio_mode_bluetooth">Bluetooth</string>
   <!-- post dial -->
@@ -68,33 +68,33 @@
   <!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
   <!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
   <!-- Call settings screen, Set voicemail dialog title -->
-  <string name="voicemail_settings_number_label">Voicemail number</string>
+  <string name="voicemail_settings_number_label">Número do correio de voz</string>
   <!-- Card titles -->
   <!-- In-call screen: status label for a call in the "dialing" state [CHAR LIMIT=25] -->
-  <string name="card_title_dialing">Dialing</string>
+  <string name="card_title_dialing">Discando</string>
   <!-- In-call screen: status label for a re-dialing call [CHAR LIMIT=25] -->
-  <string name="card_title_redialing">Redialing</string>
+  <string name="card_title_redialing">Rediscando</string>
   <!-- In-call screen: status label for a conference call [CHAR LIMIT=25] -->
-  <string name="card_title_conf_call">Conference call</string>
+  <string name="card_title_conf_call">Chamada em conferência</string>
   <!-- In-call screen: status label for an incoming call [CHAR LIMIT=25] -->
-  <string name="card_title_incoming_call">Incoming call</string>
+  <string name="card_title_incoming_call">Recebendo chamada</string>
   <!-- In-call screen: status label displayed briefly after a call ends [CHAR LIMIT=25] -->
-  <string name="card_title_call_ended">Call ended</string>
+  <string name="card_title_call_ended">Chamada encerrada</string>
   <!-- In-call screen: status label for call that's on hold [CHAR LIMIT=25] -->
-  <string name="card_title_on_hold">On hold</string>
+  <string name="card_title_on_hold">Em espera</string>
   <!-- In-call screen: status label for a call that's in the process of hanging up [CHAR LIMIT=25] -->
-  <string name="card_title_hanging_up">Hanging up</string>
+  <string name="card_title_hanging_up">Desligando</string>
   <!-- In-call screen: status label for a call that's in CDMA flash mode [CHAR LIMIT=25] -->
-  <string name="card_title_in_call">In call</string>
+  <string name="card_title_in_call">Em chamada</string>
   <!-- In-call screen: special status label that shows your own phone
          number during emergency callback mode (ECM) [CHAR LIMIT=30] -->
-  <string name="card_title_my_phone_number">My number is <xliff:g id="my_phone_number">%s</xliff:g></string>
+  <string name="card_title_my_phone_number">Meu número é <xliff:g id="my_phone_number">%s </xliff:g></string>
   <!-- In-call screen: status label when connecting video. -->
-  <string name="card_title_video_call_connecting">Connecting video</string>
+  <string name="card_title_video_call_connecting">Conectando vídeo</string>
   <!-- In-call screen: status label when in a video call. -->
-  <string name="card_title_video_call">Video call</string>
+  <string name="card_title_video_call">Vídeo chamada</string>
   <!-- In-call screen: status label when requesting video. -->
-  <string name="card_title_video_call_requesting">Requesting video</string>
+  <string name="card_title_video_call_requesting">Solicitando o vídeo</string>
   <!-- In-call screen: status label when there is a problem connecting a video call. -->
   <string name="card_title_video_call_error">Can\'t connect video call</string>
   <!-- In-call screen: status label when the remote party rejects a video call request. -->
@@ -107,17 +107,15 @@
   <!-- In-call screen: string shown to the user when their outgoing number is different than the
          number reported by TelephonyManager#getLine1Number() and they're calling emergency
          services. -->
-  <string name="card_title_callback_number_emergency">Your emergency callback number\n
-        <xliff:g id="dark_number">%1$s</xliff:g>
-    </string>
+  <string name="card_title_callback_number_emergency">O seu número de retorno de chamadas de emergência\n <xliff:g id="Dark_NUMBER">%1$s</xliff:g>    </string>
   <!-- Notification strings -->
   <!-- The "label" of the in-call Notification for a dialing call, used
          as the format string for a Chronometer widget. [CHAR LIMIT=60] -->
-  <string name="notification_dialing">Dialing</string>
+  <string name="notification_dialing">Discando</string>
   <!-- Missed call notification label, used when there's exactly one missed call -->
-  <string name="notification_missedCallTitle">Missed call</string>
+  <string name="notification_missedCallTitle">Chamada perdida</string>
   <!-- Missed call notification label, used when there are two or more missed calls -->
-  <string name="notification_missedCallsTitle">Missed calls</string>
+  <string name="notification_missedCallsTitle">Chamadas perdidas</string>
   <!-- Missed call notification message used when there are multiple missed calls -->
   <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> missed calls</string>
   <!-- Missed call notification message used for a single missed call, including
