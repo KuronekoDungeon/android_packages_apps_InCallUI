@@ -96,14 +96,12 @@
   <!-- In-call screen: status label when requesting video. -->
   <string name="card_title_video_call_requesting">Solicitando o vídeo</string>
   <!-- In-call screen: status label when there is a problem connecting a video call. -->
-  <string name="card_title_video_call_error">Can\'t connect video call</string>
+  <string name="card_title_video_call_error">Não é possível conectar a videochamada</string>
   <!-- In-call screen: status label when the remote party rejects a video call request. -->
-  <string name="card_title_video_call_rejected">Video request rejected</string>
+  <string name="card_title_video_call_rejected">Vídeo chamada rejeitada</string>
   <!-- In-call screen: string shown to the user when their outgoing number is different than the
          number reported by TelephonyManager#getLine1Number() -->
-  <string name="card_title_callback_number">Your callback number\n
-        <xliff:g id="dark_number">%1$s</xliff:g>
-    </string>
+  <string name="card_title_callback_number">O seu número de retorno de chamada\n <xliff:g id="Dark_NUMBER">%1$s</xliff:g>    </string>
   <!-- In-call screen: string shown to the user when their outgoing number is different than the
          number reported by TelephonyManager#getLine1Number() and they're calling emergency
          services. -->
@@ -125,14 +123,14 @@
   <string name="notification_ongoing_call">Ongoing call</string>
   <!-- The "label" of the in-call Notification for an ongoing call, which is being made over
          Wi-Fi. [CHAR LIMIT=60] -->
-  <string name="notification_ongoing_call_wifi">Ongoing Wi-Fi call</string>
+  <string name="notification_ongoing_call_wifi">Chamada Wi-Fi em andamento</string>
   <!-- The "label" of the in-call Notification for a call that's on hold -->
-  <string name="notification_on_hold">On hold</string>
+  <string name="notification_on_hold">Em espera</string>
   <!-- The "label" of the in-call Notification for an incoming ringing call. [CHAR LIMIT=60] -->
-  <string name="notification_incoming_call">Incoming call</string>
+  <string name="notification_incoming_call">Recebendo chamada</string>
   <!-- The "label" of the in-call Notification for an incoming ringing call,
          which is being made over Wi-Fi. [CHAR LIMIT=60] -->
-  <string name="notification_incoming_call_wifi">Incoming Wi-Fi call</string>
+  <string name="notification_incoming_call_wifi">Recebendo chamada Wi-Fi</string>
   <!-- The "label" of the in-call Notification for an incoming ringing video call. -->
   <string name="notification_incoming_video_call">Incoming video call</string>
   <!-- The "label" of the in-call Notification for upgrading an existing call to a video call. -->
@@ -144,12 +142,12 @@
   <string name="notification_voicemail_title_count">New voicemail (<xliff:g id="count">%d</xliff:g>)</string>
   <!-- Message displayed in the "Voicemail" notification item, allowing the user
          to dial the indicated number. -->
-  <string name="notification_voicemail_text_format">Dial <xliff:g id="voicemail_number">%s</xliff:g></string>
+  <string name="notification_voicemail_text_format">Discar <xliff:g id="voicemail_number">%s </xliff:g></string>
   <!-- Message displayed in the "Voicemail" notification item,
          indicating that there's no voicemail number available -->
-  <string name="notification_voicemail_no_vm_number">Voicemail number unknown</string>
+  <string name="notification_voicemail_no_vm_number">Número do correio de voz desconhecido</string>
   <!-- Label for the "No service" notification item, when expanded. -->
-  <string name="notification_network_selection_title">No service</string>
+  <string name="notification_network_selection_title">Sem serviço</string>
   <!-- Label for the expanded "No service" notification item, including the
          operator name set by user -->
   <string name="notification_network_selection_text">Selected network (<xliff:g id="operator_name">%s</xliff:g>) unavailable</string>
