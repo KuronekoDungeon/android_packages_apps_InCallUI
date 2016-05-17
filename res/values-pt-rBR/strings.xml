@@ -115,7 +115,7 @@
   <!-- Missed call notification label, used when there are two or more missed calls -->
   <string name="notification_missedCallsTitle">Chamadas perdidas</string>
   <!-- Missed call notification message used when there are multiple missed calls -->
-  <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> missed calls</string>
+  <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> chamadas perdidas</string>
   <!-- Missed call notification message used for a single missed call, including
          the caller-id info from the missed call -->
   <string name="notification_missedCallTicker">Missed call from <xliff:g id="missed_call_from">%s</xliff:g></string>
