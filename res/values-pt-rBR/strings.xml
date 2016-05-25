@@ -220,13 +220,13 @@
   <!-- Emergency dialer: message displayed in an error dialog -->
   <string name="dial_emergency_error">Não é possível discar. <xliff:g id="non_emergency_number">%s</xliff:g> não é um número de emergência.</string>
   <!-- Emergency dialer: message displayed in an error dialog -->
-  <string name="dial_emergency_empty_error">Can\'t call. Dial an emergency number.</string>
+  <string name="dial_emergency_empty_error">Não pode chamar. Discar um número de emergência.</string>
   <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
          to dial using the physical keyboard -->
-  <string name="dialerKeyboardHintText">Use keyboard to dial</string>
+  <string name="dialerKeyboardHintText">Use o teclado para discar</string>
   <!-- Text for the onscreen "Hold" button when it is not selected. Pressing it will put
          the call on hold. -->
-  <string name="onscreenHoldText_unselected">Hold Call</string>
+  <string name="onscreenHoldText_unselected">Colocar a chamada em espera</string>
   <!-- Text for the onscreen "Hold" button when it is selected. Pressing it will resume
          the call from a previously held state. -->
   <string name="onscreenHoldText_selected">Retomar chamada</string>
@@ -239,9 +239,9 @@
   <!-- Text for the onscreen "Add call" button -->
   <string name="onscreenAddCallText">Adicionar chamada</string>
   <!-- Text for the onscreen "Merge calls" button -->
-  <string name="onscreenMergeCallsText">Merge calls</string>
+  <string name="onscreenMergeCallsText">Mesclar chamadas</string>
   <!-- Text for the onscreen "Swap calls" button -->
-  <string name="onscreenSwapCallsText">Swap</string>
+  <string name="onscreenSwapCallsText">Trocar</string>
   <!-- Text for the onscreen "Manage calls" button -->
   <string name="onscreenManageCallsText">Gerenciar chamadas</string>
   <!-- Text for the onscreen "Manage conference" button [CHAR LIMIT=30] -->
@@ -263,7 +263,7 @@
   <!-- Text for the onscreen overflow button, to see additional actions which can be done. -->
   <string name="onscreenOverflowText">Mais opções</string>
   <!-- Message indicating that Video Started flowing for IMS-VT calls -->
-  <string name="player_started">Player Started</string>
+  <string name="player_started">Reprodutor iniciado</string>
   <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
   <string name="player_stopped">Player Stopped</string>
   <!-- Message indicating that camera failure has occurred for the selected camera and
@@ -290,9 +290,9 @@
   <string name="calling_via_template">Calling via <xliff:g id="provider_name">%s</xliff:g></string>
   <!-- Title displayed in the overlay for incoming calls which include the name of the provider.
          [CHAR LIMIT=40] -->
-  <string name="incoming_via_template">Incoming via <xliff:g id="provider_name">%s</xliff:g></string>
+  <string name="incoming_via_template">Recebendo através de <xliff:g id="provider_name">%s </xliff:g></string>
   <!-- Use this as a default to describe the contact photo; currently for screen readers through accessibility. -->
-  <string name="contactPhoto">contact photo</string>
+  <string name="contactPhoto">foto do contato</string>
   <!-- Use this to describe the separate conference call button; currently for screen readers through accessibility. -->
   <string name="goPrivate">tornar privado</string>
   <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
@@ -308,7 +308,7 @@
   <!-- Description of the send_sms target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] -->
   <string name="description_target_send_sms">Enviar SMS</string>
   <!-- Description of the decline target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
-  <string name="description_target_decline">Decline</string>
+  <string name="description_target_decline">Recusar</string>
   <!-- Description of the target to answer a call as a video call in the Slide unlock screen.
          [CHAR LIMIT=NONE] -->
   <string name="description_target_answer_video_call">Responder como chamada de vídeo</string>
