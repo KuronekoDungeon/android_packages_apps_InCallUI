@@ -265,12 +265,12 @@
   <!-- Message indicating that Video Started flowing for IMS-VT calls -->
   <string name="player_started">Reprodutor iniciado</string>
   <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
-  <string name="player_stopped">Player Stopped</string>
+  <string name="player_stopped">Reprodutor parou</string>
   <!-- Message indicating that camera failure has occurred for the selected camera and
          as result camera is not ready -->
-  <string name="camera_not_ready">Camera not ready</string>
+  <string name="camera_not_ready">A câmara não está pronta</string>
   <!-- Message indicating that camera is ready/available -->
-  <string name="camera_ready">Camera ready</string>
+  <string name="camera_ready">Câmara pronta</string>
   <!-- Message indicating unknown call session event -->
   <string name="unknown_call_session_event">"Evento de sessão de chamada desconhecido"</string>
   <!-- For incoming calls, this is a string we can get from a CDMA network instead of
@@ -282,12 +282,12 @@
          [CHAR LIMIT=40] -->
   <string name="voicemail_settings">Configurar</string>
   <!-- String to display in voicemail number summary when no voicemail num is set -->
-  <string name="voicemail_number_not_set">&lt;Not set&gt;</string>
+  <string name="voicemail_number_not_set">&lt;Não definido&gt;</string>
   <!-- Title displayed above settings coming after voicemail in the call features screen -->
-  <string name="other_settings">Other call settings</string>
+  <string name="other_settings">Outras configurações de chamada</string>
   <!-- Title displayed in the overlay for outgoing calls which include the name of the provider.
          [CHAR LIMIT=40] -->
-  <string name="calling_via_template">Calling via <xliff:g id="provider_name">%s</xliff:g></string>
+  <string name="calling_via_template">Chamando através de <xliff:g id="provider_name">%s </xliff:g></string>
   <!-- Title displayed in the overlay for incoming calls which include the name of the provider.
          [CHAR LIMIT=40] -->
   <string name="incoming_via_template">Recebendo através de <xliff:g id="provider_name">%s </xliff:g></string>
@@ -326,10 +326,10 @@
   <string name="description_target_accept_upgrade_to_video_transmit_request">Aceitar pedido para transmitir vídeo</string>
   <!-- Description of the target to decline a request to upgrade from any call to a video transmit call.
          [CHAR LIMIT=NONE] -->
-  <string name="description_target_decline_upgrade_to_video_transmit_request">Decline video transmit request</string>
+  <string name="description_target_decline_upgrade_to_video_transmit_request">Recusar pedido para transmitir vídeo</string>
   <!-- Description of the target to accept a request to upgrade from any call to a video receive call.
          [CHAR LIMIT=NONE] -->
-  <string name="description_target_accept_upgrade_to_video_receive_request">Accept video receive request</string>
+  <string name="description_target_accept_upgrade_to_video_receive_request">Aceitar pedido para receber vídeo</string>
   <!-- Description of the target to decline a request to upgrade from any call to a video receive call.
          [CHAR LIMIT=NONE] -->
   <string name="description_target_decline_upgrade_to_video_receive_request">Decline video receive request</string>

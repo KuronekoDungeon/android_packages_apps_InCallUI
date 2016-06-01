@@ -373,16 +373,22 @@
   <!-- Phrase describing a time duration using seconds [CHAR LIMIT=16] -->
   <plurals name="duration_seconds">
     <item quantity="one">שנייה אחת</item>
+    <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> שניות</item>
+    <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> שניות</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> שניות</item>
   </plurals>
   <!-- Phrase describing a time duration using minutes [CHAR LIMIT=16] -->
   <plurals name="duration_minutes">
     <item quantity="one">דקה אחת</item>
+    <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
+    <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
   </plurals>
   <!-- Phrase describing a time duration using hours [CHAR LIMIT=16] -->
   <plurals name="duration_hours">
     <item quantity="one">שעה אחת</item>
+    <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> שעות</item>
+    <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> שעות</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> שעות</item>
   </plurals>
   <!-- Description of the profile photo shown when the device's camera is disabled udring a video
