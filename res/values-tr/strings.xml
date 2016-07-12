@@ -387,14 +387,14 @@
   </plurals>
   <!-- Description of the profile photo shown when the device's camera is disabled udring a video
         call. [CHAR LIMIT=NONE] -->
-  <string name="profile_photo_description">Profile photo</string>
+  <string name="profile_photo_description">Profil fotoğrafı ekle</string>
   <!-- Description of the "camera off" icon displayed when the device's camera is disabled during
          a video call. [CHAR LIMIT=NONE] -->
   <string name="camera_off_description">Camera off</string>
   <!-- Used to inform the user that a call was received via a number other than the primary
         phone number associated with their device. [CHAR LIMIT=16] -->
-  <string name="child_number">via <xliff:g id="child_number" example="650-555-1212">%s</xliff:g></string>
+  <string name="child_number"><xliff:g id="child_number" example="650-555-1212">%s</xliff:g> ile</string>
   <!-- Used to inform the user that the note associated with an outgoing call has been sent.
          [CHAR LIMIT=32] -->
-  <string name="note_sent">Note sent</string>
+  <string name="note_sent">Not gönderdi</string>
 </resources>
