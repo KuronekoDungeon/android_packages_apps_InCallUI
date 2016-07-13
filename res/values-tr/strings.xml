@@ -390,7 +390,7 @@
   <string name="profile_photo_description">Profil fotoğrafı ekle</string>
   <!-- Description of the "camera off" icon displayed when the device's camera is disabled during
          a video call. [CHAR LIMIT=NONE] -->
-  <string name="camera_off_description">Camera off</string>
+  <string name="camera_off_description">Kamera kapalı</string>
   <!-- Used to inform the user that a call was received via a number other than the primary
         phone number associated with their device. [CHAR LIMIT=16] -->
   <string name="child_number"><xliff:g id="child_number" example="650-555-1212">%s</xliff:g> ile</string>
